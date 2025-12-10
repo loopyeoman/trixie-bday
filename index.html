@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trixie.exe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="boot-screen">
+    <p class="boot-text" id="boot-text"></p>
+</div>
+
+<div id="quiz-screen" class="hidden">
+    <h2 class="title">Trixie Stability Test</h2>
+
+    <div id="quiz-container">
+        <p class="q">1) What is the capital of India?</p>
+        <input class="ans-input">
+
+        <p class="q">2) How many days in a week?</p>
+        <input class="ans-input">
+
+        <p class="q">3) Largest planet?</p>
+        <input class="ans-input">
+
+        <p class="q">4) Who invented gravity?</p>
+        <input class="ans-input">
+
+        <p class="q">5) Opposite of hot?</p>
+        <input class="ans-input">
+
+        <button id="finish-btn">Finish Test</button>
+    </div>
+</div>
+
+<div id="reveal-screen" class="hidden">
+    <canvas id="confetti"></canvas>
+
+    <div class="slideshow">
+        <img id="slide" src="trixie1.jpg">
+    </div>
+
+    <h2 class="hbday">Happy Birthday, my capacitor 🎉</h2>
+
+    <p class="poem">
+        <strong>T</strong>uned to every wavelength I didn’t know I needed<br>
+        <strong>R</strong>andom spark that stabilizes my messy circuits<br>
+        <strong>I</strong>nterference-free signal in my noisiest days<br>
+        <strong>X</strong>-factor that resets my system every time<br>
+        <strong>I</strong>ntuitively magnetic, effortlessly bright<br>
+        <strong>E</strong>nergy that never lets my frequency drop<br>
+    </p>
+
+    <h3 class="final-line">The only stable system in my unstable network.</h3>
+
+    <audio id="bgm" loop>
+        <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c3e4fe7336.mp3?filename=lukrembo-marshmallow-14475.mp3" type="audio/mpeg">
+    </audio>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
